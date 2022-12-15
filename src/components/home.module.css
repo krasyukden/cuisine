@@ -1,0 +1,82 @@
+.homeWrap{
+  margin: 0 50px 40px 50px;
+}
+.homeCuisines{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 30px 0;
+}
+.navLink{
+  text-decoration: none;
+}
+.dessertsItem{
+  padding-left: 15px;
+  padding-right: 0px;
+  position: relative;
+  z-index: 1;
+}
+.dessertsItem img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.dessertsItem:hover{
+  opacity: 0.5;
+}
+.vegetarianItem{
+  padding-left: 15px;
+  padding-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+.vegetarianItem:hover{
+  opacity: 0.5;
+}
+.vegetarianItem img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.titleDessert{
+  display: flex;
+  justify-content: center;
+  color: black;
+  position: absolute;
+  z-index: 2;
+  top: 70%;
+  left: 20%;
+  right: 20%;
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+  background-color: wheat;
+  border-radius: 10px;
+  opacity: 0.5;
+  padding: 0.1rem;
+}
+.titleDessert:hover{
+  color: gray;
+}
+.titleVega{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  top: 70%;
+  left: 20%;
+  right: 20%;
+  color: black;
+  background-color: wheat;
+  border-radius: 10px;
+  opacity: 0.6;
+  padding: 0.1rem;
+  font-weight: bold;
+}
+.titleVega:hover{
+  color: gray;
+}

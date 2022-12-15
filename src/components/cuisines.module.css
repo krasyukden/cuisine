@@ -1,0 +1,49 @@
+.cuisineHead{
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  margin-top: 30px;
+}
+.cuisineHead div:hover{
+  opacity: 0.5;
+}
+.cuisineHead div{
+  padding-right: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.cuisineHead svg{
+  margin: auto;
+  display: block;
+}
+.cuisineHead h4{
+  margin-top: 10px;
+}
+.cuisineItemWrap{
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+.cuisineItemWrap a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.cuisineItem {
+  padding-bottom: 25px;
+}
+.cuisineItem img{
+  border-radius: 10px;
+}
+.cuisineItem img:hover{
+  opacity: 0.5;
+}
+.cuisineItem div:hover{
+  opacity: 0.5;
+}
